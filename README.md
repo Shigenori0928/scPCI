@@ -26,16 +26,14 @@ So you may need following environments.
 - If some R packages do not exist, please install required R packages.
 
 ## Usage
-In our study, we re-analyzed two data, [PBMC dataset](https://github.com/10XGenomics/single-cell-3prime-paper)
-and [FACS fat dataset]
-(https://github.com/czbiohub/tabula-muris).
+In our study, we re-analyzed two data, [PBMC](https://github.com/10XGenomics/single-cell-3prime-paper)
+and [FACS fat](https://github.com/czbiohub/tabula-muris).
 Here, we explaine the flow of our analysis.
 
 ### Preprocessing for real data
 [PBMC dataset](https://github.com/10XGenomics/single-cell-3prime-paper)
 
-[FACS fat dataset]
-(https://github.com/czbiohub/tabula-muris)
+[FACS fat](https://github.com/czbiohub/tabula-muris)
 
 ## Data format
 
