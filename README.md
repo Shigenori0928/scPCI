@@ -28,7 +28,7 @@ So you may need following environments.
 ## Usage
 In our study, we re-analyzed two data, [PBMC](https://github.com/10XGenomics/single-cell-3prime-paper)
 and [FACS fat](https://github.com/czbiohub/tabula-muris).
-Here, we explaine the flow of our analysis.
+Here, we explain the flow of our analysis.
 
 ### Preprocessing for real data
 Firstly, you do following command.
@@ -36,7 +36,7 @@ Firstly, you do following command.
 `create_dir.py`
 
 Then you perform the preprocessing for two dataset.
-Preprocessing basically follows the original paper ([PBMC dataset](https://github.com/10XGenomics/single-cell-3prime-paper),[FACS fat](https://github.com/czbiohub/tabula-muris) 
+Preprocessing basically follows the original paper ([PBMC dataset](https://github.com/10XGenomics/single-cell-3prime-paper), [FACS fat](https://github.com/czbiohub/tabula-muris) 
 ).
 In "Preprocessing" directory, you can find the R code for preprocessing.
 So you download two dataset in the same directory, according to the original paper.
@@ -69,6 +69,7 @@ We recommend that you do the following after step2.
 `Recomp_pval_gn.py`
 
 ## Data format
+上の実行結果が, Resultというdirectoryに発生するが, 論文中の図を再現するためには, PCI_[dataset]/each/にPCI-geneの結果を, PCI_[dataset]/global/にPCI-geneの結果を入れる必要がある.
 
 ## Lisence
 GNU General Public License
