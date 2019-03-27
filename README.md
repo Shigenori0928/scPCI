@@ -30,19 +30,34 @@ In our study, we re-analyzed two data, [PBMC](https://github.com/10XGenomics/sin
 and [FACS fat](https://github.com/czbiohub/tabula-muris).
 Here, we explaine the flow of our analysis.
 
+### Preprocessing for real data
+Firstly, you do following command.
+`create_dir.py`
+Then you perform the preprocessing for two dataset.
+Preprocessing basically follows the original paper ([PBMC dataset](https://github.com/10XGenomics/single-cell-3prime-paper),[FACS fat](https://github.com/czbiohub/tabula-muris) 
+).
+In "Preprocessing" directory, you can find the R code for preprocessing.
+So you download two dataset in the same directory, according to the original paper.
+
 ### 1
 Perform clustering on preprocessed data.
-'python clustering_[dataset name].py'
+`python clustering_[dataset name].py`
 There are "PBMC" or "FACSfat" in dataset name.
 
 ### 2
+Perform scPCI method. 
+You choose scPCI-gene or scPCI-cluster.
+If you want to perform scPCI-gene, you should input following command.
+`Run_[dataset name].py`
+Or if you want to perform scPCI-cluster, you should input following command.
+`Run_[dataset name]_gn.py`
 
-### 3
-
-### Preprocessing for real data
-[PBMC dataset](https://github.com/10XGenomics/single-cell-3prime-paper)
-
-[FACS fat](https://github.com/czbiohub/tabula-muris)
+### Recalculation of p-value 
+In many cases of real data analysis, it is often impossible to calculate p-values numerically.
+So we provide the code to approximate these by importance sampling.
+We recommend that you do the following after step2.
+`Recomp_pval.py` 
+`Recomp_pval_gn.py`
 
 ## Data format
 
