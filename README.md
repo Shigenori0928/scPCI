@@ -30,6 +30,15 @@ In our study, we re-analyzed two data, [PBMC](https://github.com/10XGenomics/sin
 and [FACS fat](https://github.com/czbiohub/tabula-muris).
 Here, we explaine the flow of our analysis.
 
+### 1
+Perform clustering on preprocessed data.
+'python clustering_[dataset name].py'
+There are "PBMC" or "FACSfat" in dataset name.
+
+### 2
+
+### 3
+
 ### Preprocessing for real data
 [PBMC dataset](https://github.com/10XGenomics/single-cell-3prime-paper)
 
