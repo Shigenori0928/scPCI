@@ -32,7 +32,9 @@ Here, we explaine the flow of our analysis.
 
 ### Preprocessing for real data
 Firstly, you do following command.
+
 `create_dir.py`
+
 Then you perform the preprocessing for two dataset.
 Preprocessing basically follows the original paper ([PBMC dataset](https://github.com/10XGenomics/single-cell-3prime-paper),[FACS fat](https://github.com/czbiohub/tabula-muris) 
 ).
