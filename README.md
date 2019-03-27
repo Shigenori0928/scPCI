@@ -41,14 +41,14 @@ Preprocessing basically follows the original paper ([PBMC dataset](https://githu
 In "Preprocessing" directory, you can find the R code for preprocessing.
 So you download two dataset in the same directory, according to the original paper.
 
-### Clustering
+### 1. Clustering
 Perform clustering on preprocessed data.
 
 `python clustering_[dataset name].py`
 
 There are "PBMC" or "FACSfat" in dataset name.
 
-### Post-Clustering Inference
+### 2. Post-Clustering Inference
 Perform scPCI method. 
 You choose scPCI-gene or scPCI-cluster.
 If you want to perform scPCI-gene, you should input following command.
