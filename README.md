@@ -17,7 +17,13 @@ We demonstrate the validity and the usefulness of the scPCI method in controlled
 The scPCI method enables the researchers to obtain valid p-values of cluster-specific DE genes, which makes scRNA-seq more quantitative, reliable and reproducible. 
 
 ## Environmental Requirement
+- Python version 2.7 or 3.6
+- Please install required packages when the python "ImportError" occurs
 
+If you want to reproduce the results of real data analysis, you must run preprocessing code written by R.
+So you may need following environments.
+- R version 3.5
+- If some R packages do not exist, please install required R packages.
 
 ## Usage
 
